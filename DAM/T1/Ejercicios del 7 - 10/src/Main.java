@@ -7,5 +7,9 @@ public class Main {
         System.out.println("=======================================");
             Ejercicio misEjercicios= new Ejercicio();
             misEjercicios.ejecutarEjercicio7();
+            misEjercicios.ejecutarEjercicio8();
+            misEjercicios.ejecutarEjercicio9();
+            misEjercicios.ejecutarEjercicio10();
         }
+
     }
