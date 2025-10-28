@@ -9,6 +9,6 @@ public class Main {
         misEjercicios.ejecutarEjercicio3();
         misEjercicios.ejecutarEjercicio4();
         misEjercicios.ejecutarEjercicio5();
+        misEjercicios.ejecutarEjercicio6();
     }
-
 }

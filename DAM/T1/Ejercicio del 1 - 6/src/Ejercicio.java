@@ -88,6 +88,22 @@ public class Ejercicio {
     }
     public void ejecutarEjercicio6(){
         System.out.println("\nEjecucion del Ejercicio 6");
-        
+        /*Escribe un programa que declare dos variables numéricas,
+        realice las operaciones básicas (suma, resta, multiplicación y división)
+        y muestre los resultados por consola.*/
+
+        int num1= 10;
+        int num2=5;
+
+        int suma=num1 + num2;
+        int resta=num1-num2;
+        int multiplicacion = num1 * num2;
+        double division= num1 / num2;
+        System.out.println("Numero 1: "+num1);
+        System.out.println("Numero 2: "+num2);
+        System.out.println("Suma: " +suma);
+        System.out.println("Resta: " +resta);
+        System.out.println("Multiplicacion: " +multiplicacion);
+        System.out.println("Division: " +division);
     }
 }
