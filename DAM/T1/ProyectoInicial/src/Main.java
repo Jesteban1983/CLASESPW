@@ -12,6 +12,7 @@ public class Main {
      */
     public static void main(String[] args) {
         //TODO terminar de implementar la funcionalidad del main
+        final String NUMERO_DNI = "12345678";
         String nombreCompleto = "Jonathan Esteban Barona"; //Los string son palabras y van encomillados dobles
         nombreCompleto= "Jonathan E. B.";
         char letraCarnet= 'Z';
@@ -22,13 +23,13 @@ public class Main {
         edad = edad +1;
         float altura = 1.55f;
         double peso = 70.23456789;
+        System.out.println("MI Numero de DNI es " +NUMERO_DNI );
         System.out.println("Esta impresion lo acabo de hacer");
         System.out.println("Mi nombre completo es "+nombreCompleto);
         System.out.println("Mi edad es " +edad +" años");
         System.out.println("Mi altura es de " +altura +" cm.");
         System.out.println("Mi peso es de " +peso +" kg.");
         System.out.println("La letra de mi DNI es "+letraCarnet);
-
         System.out.println("Tengo experiencia "+experiencia);
         //System.out.println(letraCarnetNumero);
         /*
