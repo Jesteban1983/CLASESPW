@@ -42,4 +42,52 @@ public class Ejercicio {
         System.out.println("Altura: " + altura + " - tipo: "+ "Double");
         System.out.println("Inicial: " + letraInicial + "- tipo: "+ "Char");
     }
+    public void ejecutarEjercicio4(){
+        System.out.println("\nEjecucion del Ejercicio 4");
+        /*Crea un programa que simule la información de un libro usando variables con
+        nombres descriptivos. Muestra toda la información del libro en la consola.
+        */
+        String titulo="Don Quijote de la Mancha";
+        String autor="MIguel de Cervantes";
+        int aPublicacion=1605;
+        int nuPaginas=863;
+        boolean esDisponible=true;
+
+        System.out.println("Titulo: " + titulo);
+        System.out.println("Autor: " + autor);
+        System.out.println("Año de publicacion: " + aPublicacion);
+        System.out.println("Numero de paginas: " + nuPaginas);
+        System.out.println("¿Esta Disponible?: " + esDisponible);
+
+    }
+    public void ejecutarEjercicio5(){
+        System.out.println("\nEjecucion del Ejercicio 5");
+        /*Crea un programa que use constantes para almacenar información
+        que no debe cambiar (como el valor de PI o el nombre de una aplicación)
+        y variables para información que puede cambiar. Muestra todos los valores.
+        */
+        final String app="MiApp";
+        String version="1.0.0";
+        final double pi= Math.PI;
+        String usuario="Laura";
+        int nivel= 1;
+        int puntuacion=0;
+        System.out.println("Aplicacion: "+app);
+        System.out.println("Versión: "+version);
+        System.out.println("Valor de PI: "+pi);
+        System.out.println("Usuario actual: "+usuario);
+        System.out.println("Nivel: "+nivel);
+        System.out.println("Puntuación: "+puntuacion);
+
+        usuario="Miguel";
+        nivel=2;
+        puntuacion=150;
+        System.out.println("Usuario actualizado: "+usuario);
+        System.out.println("Nivel actualizado: "+nivel);
+        System.out.println("Puntuación actualizada: "+puntuacion);
+    }
+    public void ejecutarEjercicio6(){
+        System.out.println("\nEjecucion del Ejercicio 6");
+        
+    }
 }

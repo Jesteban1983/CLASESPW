@@ -7,5 +7,8 @@ public class Main {
         misEjercicios.ejecutarEjercicio1();
         misEjercicios.ejecutarEjercicio2();
         misEjercicios.ejecutarEjercicio3();
+        misEjercicios.ejecutarEjercicio4();
+        misEjercicios.ejecutarEjercicio5();
     }
+
 }
